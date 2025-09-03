@@ -1,0 +1,13 @@
+
+
+
+https://stackoverflow.com/questions/53309361/creating-apk-file-out-of-a-progressive-web-app
+
+
+
+https://github.com/xtools-at/Android-PWA-Wrapper
+
+
+
+
+
