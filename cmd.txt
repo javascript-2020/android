@@ -1,5 +1,7 @@
 
 
+        https://developer.android.com/tools/releases/platform-tools
+
 
         scrcpy
         
