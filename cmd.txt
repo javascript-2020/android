@@ -1,0 +1,75 @@
+
+
+
+        scrcpy
+        
+        https://github.com/Genymobile/scrcpy/tree/master
+        
+        
+
+        screenshot
+        
+        adb -s 192.168.8.212:43269 shell screencap -p /sdcard/screen.png
+        adb -s 192.168.8.212:43269 pull /sdcard/screen.png
+        
+        
+        tap screen
+        
+        record adb -s 192.168.8.212:43269 shell input tap 360 1430
+        camera adb -s 192.168.8.212:43269 shell input tap 500 1460
+        
+        
+        launch opencamera
+        
+        adb -s 192.168.8.212:43269 shell am start -n net.sourceforge.opencamera/.MainActivity
+        
+        
+        
+        pull file
+        
+        adb -s 192.168.8.212:43269 pull /sdcard/DCIM/Camera/photo.jpg
+        
+        
+        push file
+        
+        adb -s 192.168.8.212:43269 push myfile.txt /sdcard/
+        
+        
+        wake phone
+        
+         adb -s 192.168.8.212:43269 shell input keyevent 82
+         
+         
+         
+        unlock
+        
+        adb shell input keyevent 82
+        adb shell input swipe 300 1000 300 500  # simulate swipe up
+        adb shell input text 14569              # enter PIN (if needed)
+        adb shell input keyevent 66            # press Enter
+        
+
+
+        lock phone
+        
+        adb -s 192.168.8.212:43269 shell input keyevent 26
+        
+        
+        
+        launch phone mirror
+        
+        scrcpy
+        
+        
+        keep screen awake
+        
+        adb shell settings put global stay_on_while_plugged_in 3
+        
+        
+        
+        
+        
+
+        
+        
+        
