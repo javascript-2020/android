@@ -5,6 +5,14 @@
         
         https://github.com/Genymobile/scrcpy/tree/master
         
+
+        x-plore
+        opencamera
+        apkmirror
+
+
+
+
         
 
         screenshot
@@ -45,7 +53,7 @@
         
         adb shell input keyevent 82
         adb shell input swipe 300 1000 300 500  # simulate swipe up
-        adb shell input text xxxxx              # enter PIN (if needed)
+        adb shell input text 14569              # enter PIN (if needed)
         adb shell input keyevent 66            # press Enter
         
 
