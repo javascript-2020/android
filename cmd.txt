@@ -15,7 +15,8 @@
 
 
 
-        
+        adb connect 192.168.8.212:43269
+
 
         screenshot
         
